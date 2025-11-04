@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.pai {
+    height: 100vh;
+    border: 5px solid black;
+    display: flex;
+   /* flex-direction: row;
+   /* gap: 5px;
+   /* justify-content: center;  /* alinha no eixo linha */
+   /* align-items: center;      /* alinha no eixo coluna */
+   /* flex-wrap: wrap;/*       /* permite quebrar linha */
+}
+
+.pai > div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    
+}
+
+.filho1 {
+    background-color: lightblue;
+}
+
+.filho2 {
+    background-color: lightgreen;
+}
+
+.filho3 {
+    background-color: lightcoral;
+}
+
+.filho4 {
+    background-color: lightgoldenrodyellow;
+}
