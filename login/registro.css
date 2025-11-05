@@ -1,0 +1,139 @@
+* {
+    border: none;
+    margin: 0;
+    /* espaçamento externo */
+    padding: 0;
+    /* espaçamento interno */
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --primary: #7B25AA;
+    --light-gray: #ECF0F1;
+    --dark-gray: #949E9F;
+}
+
+body {
+    background-color: var(--light-gray);
+    padding: 25px 50px;
+    height: 95vh;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.div-login {
+    background-color: #4C087F;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
+
+
+.div-login > a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    width: 20%;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.div-login > a:hover {
+    background-color: #7B25AA;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.div-login > p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.div-cadastro {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-cadastro>h2 {
+    color: var(--primary);
+}
+
+.div-cadastro>p {
+    color: var(--dark-gray);
+}
+
+.form-registro>button {
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    border: 2px var(--primary);
+    text-align: center;
+    display: flex;
+}
+
+.form-registro>button:hover {
+    background-color: #e17ff5;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.input-caixa {
+    border: 1px solid #c8c9c9;
+    background-color: #ecf0f1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.icone {
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}   
+
+.icone:hover {
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
