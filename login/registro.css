@@ -31,7 +31,7 @@ main {
 }
 
 .div-login {
-    background-color: #4C087F;
+    background: linear-gradient(310deg , #4C087F, #872cb8);
     color: #fff;
     padding: 10px;
     display: flex;
